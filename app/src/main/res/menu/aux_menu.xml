@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/menu_1"
+        android:title="@string/menu_item_1" />
+
+    <group android:id="@+id/group2" android:checkableBehavior="single">
+        <item
+            android:id="@+id/aux_menu_one_mint"
+            android:title="Mints separate"/>
+        <item
+            android:id="@+id/aux_menu_two_mints"
+            android:title="Mints together"/>
+        <item
+            android:id="@+id/aux_menu_no_mints"
+            android:title="No mints at all"/>
+    </group>
+
+
+</menu>

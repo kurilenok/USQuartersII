@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="Quarters">
+        <menu>
+            <item
+                android:id="@+id/nav_menu_states"
+                android:icon="@drawable/ic_label_black_24dp"
+                android:title="Statehood Quarters" />
+            <item
+                android:id="@+id/nav_menu_states_p"
+                android:icon="@drawable/ic_label_black_24dp"
+                android:title="Statehood Quarters (P)" />
+            <item
+                android:id="@+id/nav_menu_states_d"
+                android:icon="@drawable/ic_label_black_24dp"
+                android:title="Statehood Quarters (D)" />
+            <item
+                android:id="@+id/nav_menu_states_p_d"
+                android:icon="@drawable/ic_label_black_24dp"
+                android:title="Statehood Quarters" />
+            <item
+                android:id="@+id/nav_menu_parks"
+                android:icon="@drawable/ic_label_black_24dp"
+                android:title="America the Beautiful" />
+            <item
+                android:id="@+id/nav_menu_parks_p"
+                android:icon="@drawable/ic_label_black_24dp"
+                android:title="America the Beautiful (P)" />
+            <item
+                android:id="@+id/nav_menu_parks_d"
+                android:icon="@drawable/ic_label_black_24dp"
+                android:title="America the Beautiful (D)" />
+            <item
+                android:id="@+id/nav_menu_parks_p_d"
+                android:icon="@drawable/ic_label_black_24dp"
+                android:title="America the Beautiful" />
+        </menu>
+    </item>
+
+    <item android:title="Dollars">
+        <menu>
+            <item
+                android:id="@+id/nav_menu_sacagawea"
+                android:icon="@drawable/ic_label_black_24dp"
+                android:title="Native American Dollars" />
+            <item
+                android:id="@+id/nav_menu_sacagawea_p"
+                android:icon="@drawable/ic_label_black_24dp"
+                android:title="Native American Dollars (P)" />
+            <item
+                android:id="@+id/nav_menu_sacagawea_d"
+                android:icon="@drawable/ic_label_black_24dp"
+                android:title="Native American Dollars (D)" />
+            <item
+                android:id="@+id/nav_menu_sacagawea_p_d"
+                android:icon="@drawable/ic_label_black_24dp"
+                android:title="Native American Dollars" />
+            <item
+                android:id="@+id/nav_menu_presidents"
+                android:icon="@drawable/ic_label_black_24dp"
+                android:title="Presidential Dollars" />
+            <item
+                android:id="@+id/nav_menu_presidents_p"
+                android:icon="@drawable/ic_label_black_24dp"
+                android:title="Presidential Dollars (P)" />
+            <item
+                android:id="@+id/nav_menu_presidents_d"
+                android:icon="@drawable/ic_label_black_24dp"
+                android:title="Presidential Dollars (D)" />
+            <item
+                android:id="@+id/nav_menu_presidents_p_d"
+                android:icon="@drawable/ic_label_black_24dp"
+                android:title="Presidential Dollars" />
+        </menu>
+    </item>
+
+
+</menu>
