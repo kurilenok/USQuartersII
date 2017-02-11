@@ -34,7 +34,6 @@ public class PopupFragment extends DialogFragment implements View.OnClickListene
     Button bDeleteUnc, bDeleteAUnc, bDeleteFine, bDeleteGood;
     SharedPreferences preferences;
 
-
     private static PopupFragment instance = null;
 
     public PopupFragment() {
@@ -89,7 +88,12 @@ public class PopupFragment extends DialogFragment implements View.OnClickListene
 
         tvName.setText(coin.getFullname());
         tvDescription.setText(coin.getDescription());
-        tvMintage.setText("MINTAGE: " + coin.getMintage() + " ");
+
+        if (coin.getRemark() != null && coin.getRemark().equalsIgnoreCase("2017")) {
+            tvMintage.setText("COMING SOON: " + coin.getMintage() + " ");
+        } else {
+            tvMintage.setText("MINTAGE: " + coin.getMintage() + " ");
+        }
 
         preferences = getActivity().getSharedPreferences(SHARED_PREF, MODE_PRIVATE);
         if (preferences.getInt(VIEW_MODE, 1) == 0) {

@@ -14,7 +14,7 @@ import android.view.View;
 import android.view.ViewGroup;
 
 import org.numisoft.usquarters.R;
-import org.numisoft.usquarters.adapters.MyAdapter;
+import org.numisoft.usquarters.adapters.RecycleViewAdapter;
 import org.numisoft.usquarters.models.Coin;
 import org.numisoft.usquarters.models.Theme;
 import org.numisoft.usquarters.utils.UpdateHelper;
@@ -23,13 +23,13 @@ import org.numisoft.usquarters.utils.UpdateHelper;
  * Created by kukolka on 22.08.16.
  */
 @SuppressLint("ValidFragment")
-public class BasicFragment extends Fragment implements MyAdapter.OnDataClickListener {
+public class BasicFragment extends Fragment implements RecycleViewAdapter.OnDataClickListener {
 
     Theme theme1;
     Theme theme2;
     View view;
     RecyclerView rvMain;
-    MyAdapter myAdapter;
+    RecycleViewAdapter rvAdapter;
     int clicked;
     RecyclerView.LayoutManager layoutManager;
 
@@ -61,14 +61,14 @@ public class BasicFragment extends Fragment implements MyAdapter.OnDataClickList
     }
 
     private void setNewAdapter() {
-        myAdapter = new MyAdapter(view.getContext(), this);
-        rvMain.setAdapter(myAdapter);
+        rvAdapter = new RecycleViewAdapter(view.getContext(), this);
+        rvMain.setAdapter(rvAdapter);
     }
 
     public void doSomething(Coin coin) {
-        myAdapter.getCoins().set(clicked, coin);
-        myAdapter.notifyItemChanged(clicked);
-        myAdapter.notifyDataSetChanged();
+        rvAdapter.getCoins().set(clicked, coin);
+        rvAdapter.notifyItemChanged(clicked);
+        rvAdapter.notifyDataSetChanged();
         UpdateHelper.setNeedsUpdate(true);
     }
 

@@ -27,7 +27,7 @@ import java.util.List;
 /**
  * Created by kukolka on 14.08.16.
  */
-public class MyAdapter extends RecyclerView.Adapter<MyAdapter.ViewHolder> {
+public class RecycleViewAdapter extends RecyclerView.Adapter<RecycleViewAdapter.ViewHolder> {
 
     private Context context;
     private List<Coin> coins = new ArrayList<>();
@@ -40,8 +40,7 @@ public class MyAdapter extends RecyclerView.Adapter<MyAdapter.ViewHolder> {
 
     private OnDataClickListener mOnDataClickListener;
 
-
-    public MyAdapter(Context context, Fragment fragment) {
+    public RecycleViewAdapter(Context context, Fragment fragment) {
         this.context = context;
         this.mOnDataClickListener = (OnDataClickListener) fragment;
         theme1 = ((BasicFragment) fragment).getTheme1() == null ?
@@ -61,13 +60,13 @@ public class MyAdapter extends RecyclerView.Adapter<MyAdapter.ViewHolder> {
     }
 
     @Override
-    public MyAdapter.ViewHolder onCreateViewHolder(ViewGroup parent, int viewType) {
+    public RecycleViewAdapter.ViewHolder onCreateViewHolder(ViewGroup parent, int viewType) {
         View view = LayoutInflater.from(context).inflate(R.layout.item, parent, false);
         return new ViewHolder(view);
     }
 
     @Override
-    public void onBindViewHolder(MyAdapter.ViewHolder holder, final int position) {
+    public void onBindViewHolder(RecycleViewAdapter.ViewHolder holder, final int position) {
 
         int imageResource = context.getResources().getIdentifier(
                 coins.get(position).getImageId(), "drawable", context.getPackageName());
@@ -77,9 +76,9 @@ public class MyAdapter extends RecyclerView.Adapter<MyAdapter.ViewHolder> {
         holder.tvYear.setText(Integer.toString(coins.get(position).getYear()));
         holder.tvMark.setText(coins.get(position).getMark());
         holder.tvUnc.setText(Integer.toString(coins.get(position).getUnc()));
-        holder.tvAUnc.setText("AU: " + Integer.toString(coins.get(position).getAUnc()));
-        holder.tvFine.setText("F: " + Integer.toString(coins.get(position).getFine()));
-        holder.tvGood.setText("G: " + Integer.toString(coins.get(position).getGood()));
+        holder.tvAUnc.setText("F: " + Integer.toString(coins.get(position).getAUnc()));
+        holder.tvFine.setText("G: " + Integer.toString(coins.get(position).getFine()));
+        holder.tvGood.setText("P: " + Integer.toString(coins.get(position).getGood()));
 
         if (coins.get(position).getUnc() + coins.get(position).getAUnc()
                 + coins.get(position).getFine() + coins.get(position).getGood() > 0)

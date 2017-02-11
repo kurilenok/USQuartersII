@@ -8,5 +8,6 @@ public interface Constants {
 
     String SHARED_PREF = "shared_pref";
     String VIEW_MODE = "view_mode";
+    int DB_VERSIOIN = 2;
 
 }

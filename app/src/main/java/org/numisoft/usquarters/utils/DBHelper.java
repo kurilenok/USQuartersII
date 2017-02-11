@@ -21,12 +21,12 @@ import java.util.List;
  * Created by kukolka on 10/16/2016.
  */
 
-public class DBHelper extends SQLiteOpenHelper {
+public class DBHelper extends SQLiteOpenHelper implements Constants {
 
     Context context;
 
     public DBHelper(Context context) {
-        super(context, "coins", null, 1);
+        super(context, "coins", null, DB_VERSIOIN);
         this.context = context;
     }
 
@@ -62,16 +62,15 @@ public class DBHelper extends SQLiteOpenHelper {
 
     private void updateCollection(SQLiteDatabase db, List<String> delta) {
         for (String d : delta) {
-            ContentValues cv3 = new ContentValues();
-            cv3.put("coinId", d);
-            cv3.put("unc", 0);
-            cv3.put("aunc", 0);
-            cv3.put("fine", 0);
-            cv3.put("good", 0);
-            db.insert("collection", null, cv3);
+            ContentValues contentValues = new ContentValues();
+            contentValues.put("coinId", d);
+            contentValues.put("unc", 0);
+            contentValues.put("aunc", 0);
+            contentValues.put("fine", 0);
+            contentValues.put("good", 0);
+            db.insert("collection", null, contentValues);
         }
     }
-
 
     private void createCatalog(SQLiteDatabase db, List<Coin> coins) {
         db.execSQL("DROP TABLE IF EXISTS catalog");

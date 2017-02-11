@@ -21,9 +21,9 @@
             android:background="@color/primary"
             android:gravity="center"
             android:paddingTop="10dp"
-            android:text="Harpers Ferry Nat'l Park"
+            android:text="Harpers Ferry"
             android:textColor="@color/white"
-            android:textSize="20sp" />
+            android:textSize="22sp"/>
 
         <TextView
             android:id="@+id/tvDescription"
@@ -36,19 +36,19 @@
             android:paddingTop="8dp"
             android:paddingBottom="12dp"
             android:textSize="15sp"
-            android:text="West Virginia"
+            android:text="National Historical Park"
             android:textColor="@color/white" />
 
         <TextView
             android:id="@+id/tvMark"
-            android:background="@color/accent"
+            android:background="@color/primary_dark"
             android:text="P"
             android:gravity="center"
             android:textColor="@color/white"
+            android:textSize="18sp"
             android:textStyle="bold"
-            android:textSize="20sp"
-            android:layout_height="78dp"
-            android:layout_width="26dp" />
+            android:layout_height="80dp"
+            android:layout_width="24dp"/>
 
         <FrameLayout
             android:layout_width="40dp"
@@ -74,7 +74,7 @@
             android:layout_below="@id/tvMintage"
             android:layout_marginBottom="-4dp"
             android:layout_marginTop="2dp"
-            android:src="@drawable/dollar1" />
+            android:src="@drawable/p0040" />
 
         <TableLayout
             android:id="@+id/tlTable"
@@ -130,7 +130,7 @@
                     android:layout_height="match_parent"
                     android:layout_weight="1"
                     android:gravity="center"
-                    android:text="Fine" />
+                    android:text="Good" />
 
                 <Button
                     android:id="@+id/bAddFine"
@@ -169,7 +169,7 @@
                     android:layout_height="match_parent"
                     android:layout_weight="1"
                     android:gravity="center"
-                    android:text="aUNC" />
+                    android:text="Fine" />
 
                 <Button
                     android:id="@+id/bAddAUnc"
@@ -201,7 +201,7 @@
                     android:layout_height="match_parent"
                     android:layout_weight="1"
                     android:gravity="center"
-                    android:text="Good" />
+                    android:text="Poor" />
 
                 <Button
                     android:id="@+id/bAddGood"
