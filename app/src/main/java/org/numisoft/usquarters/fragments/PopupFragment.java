@@ -59,9 +59,10 @@ public class PopupFragment extends DialogFragment implements View.OnClickListene
 
         View view = inflater.inflate(R.layout.popup, container);
 
-        CardView cv = (CardView) view.findViewById(R.id.cvItem);
-        cv.setClipToOutline(true);
+//        CardView cv = (CardView) view.findViewById(R.id.cvItem);
+//        cv.setClipToOutline(true);
 
+        RelativeLayout rlMain = (RelativeLayout) view.findViewById(R.id.rlItem);
         TextView tvName = (TextView) view.findViewById(R.id.tvName);
         TextView tvDescription = (TextView) view.findViewById(R.id.tvDescription);
         TextView tvMintage = (TextView) view.findViewById(R.id.tvMintage);

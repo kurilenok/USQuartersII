@@ -31,9 +31,9 @@ public class CoinDao {
         query.append("FROM catalog ");
         query.append("LEFT OUTER JOIN collection ON catalog.coinId = collection.coinId ");
         query.append("WHERE (theme = '");
-        query.append(theme1.value);
+        query.append(theme1.getValue());
         query.append("' OR theme ='");
-        query.append(theme2.value);
+        query.append(theme2.getValue());
         query.append("') ORDER BY catalog.coinId DESC");
 
         return getSomeCoins(query.toString());
@@ -45,9 +45,9 @@ public class CoinDao {
         query.append("FROM catalog ");
         query.append("LEFT OUTER JOIN collection ON catalog.coinId = collection.coinId ");
         query.append("WHERE (theme = '");
-        query.append(theme1.value);
+        query.append(theme1.getValue());
         query.append("' OR theme ='");
-        query.append(theme2.value);
+        query.append(theme2.getValue());
         query.append("') AND (unc + aunc + fine + good) = 0");
         query.append(" ORDER BY catalog.coinId DESC");
 
@@ -61,9 +61,9 @@ public class CoinDao {
         query.append("FROM catalog ");
         query.append("LEFT OUTER JOIN collection ON catalog.coinId = collection.coinId ");
         query.append("WHERE (theme = '");
-        query.append(theme1.value);
+        query.append(theme1.getValue());
         query.append("' OR theme ='");
-        query.append(theme2.value);
+        query.append(theme2.getValue());
         query.append("') AND (unc + aunc + fine + good) > 1");
         query.append(" ORDER BY catalog.coinId DESC");
 
@@ -76,9 +76,9 @@ public class CoinDao {
         query.append("FROM catalog ");
         query.append("LEFT OUTER JOIN collection ON catalog.coinId = collection.coinId ");
         query.append("WHERE (theme = '");
-        query.append(theme1.value);
+        query.append(theme1.getValue());
         query.append("' OR theme ='");
-        query.append(theme2.value);
+        query.append(theme2.getValue());
         query.append("') AND (aunc + fine + good) > 0");
         query.append(" AND unc = 0");
         query.append(" ORDER BY catalog.coinId DESC");

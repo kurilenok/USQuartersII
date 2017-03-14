@@ -82,8 +82,8 @@ public class RecycleViewAdapter extends RecyclerView.Adapter<RecycleViewAdapter.
 
         if (coins.get(position).getUnc() + coins.get(position).getAUnc()
                 + coins.get(position).getFine() + coins.get(position).getGood() > 0)
-            holder.rlHolder.setBackground(context.getDrawable(R.drawable.background));
-        else holder.rlHolder.setBackground(context.getDrawable(R.drawable.background_zero));
+            holder.rlHolder.setBackground(context.getResources().getDrawable(R.drawable.background));
+        else holder.rlHolder.setBackground(context.getResources().getDrawable(R.drawable.background_zero));
 
         if (coins.get(position).getUnc() == 0) holder.tvUnc.setTextSize(0);
         else holder.tvUnc.setTextSize(14);

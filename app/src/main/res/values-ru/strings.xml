@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">US Quarters</string>
+    <string name="json">ru.json</string>
+    <string name="menu_item_5">не UNC</string>
+    <string name="menu_item_2">ЕСТЬ</string>
+    <string name="menu_item_3">НАДО</string>
+    <string name="menu_item_4">ОБМЕН</string>
+    <string name="menu_search">ПОИСК</string>
+    <string name="menu_item_1">Другие настройки</string>
+    <string name="close">close</string>
+    <string name="open">open</string>
+    <string name="theme_states">Штаты и территории</string>
+    <string name="theme_states_d">Штаты и территории (D)</string>
+    <string name="theme_states_p">Штаты и территории (P)</string>
+    <string name="theme_parks">Национальные парки</string>
+    <string name="theme_parks_d">Национальные парки (D)</string>
+    <string name="theme_parks_p">Национальные парки (P)</string>
+    <string name="theme_presidents">Президенты США</string>
+    <string name="theme_presidents_d">Президенты США (D)</string>
+    <string name="theme_presidents_p">Президенты США (P)</string>
+    <string name="theme_sacagawea">Сакагавея</string>
+    <string name="theme_sacagawea_d">Сакагавея (D)</string>
+    <string name="theme_sacagawea_p">Сакагавея (P)</string>
+</resources>

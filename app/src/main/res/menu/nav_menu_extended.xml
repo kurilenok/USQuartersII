@@ -1,23 +1,39 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:title="Pennies.. Nickels.. Dimes..">
+        <menu>
+            <item
+                android:icon="@drawable/ic_label_black_24dpo"
+                android:title="Lincoln cents (1909- )" />
+            <item
+                android:icon="@drawable/ic_label_black_24dpp"
+                android:title="Jefferson nickels (1938- )" />
+            <item
+                android:icon="@drawable/ic_label_black_24dps"
+                android:title="Roosevelt dimes (1946- )" />
+        </menu>
+    </item>
     <item android:title="Quarters">
         <menu>
             <item
+                android:icon="@drawable/ic_label_black_24dpo"
+                android:title="Washington (1938-1998)" />
+            <item
                 android:id="@+id/nav_menu_states"
-                android:icon="@drawable/ic_label_black_24dp"
+                android:icon="@drawable/ic_label_black_24dpp"
                 android:title="Statehood (1999-2009)" />
             <item
                 android:id="@+id/nav_menu_states_p"
                 android:icon="@drawable/ic_label_black_24dp"
-                android:title="Statehood (1999-2009) (P)" />
+                android:title="Statehood Quarters (P)" />
             <item
                 android:id="@+id/nav_menu_states_d"
                 android:icon="@drawable/ic_label_black_24dp"
-                android:title="Statehood (1999-2009) (D)" />
+                android:title="Statehood Quarters (D)" />
             <item
                 android:id="@+id/nav_menu_states_p_d"
                 android:icon="@drawable/ic_label_black_24dp"
-                android:title="Statehood (1999-2009)" />
+                android:title="Statehood Quarters" />
             <item
                 android:id="@+id/nav_menu_parks"
                 android:icon="@drawable/ic_label_black_24dp"
@@ -25,19 +41,35 @@
             <item
                 android:id="@+id/nav_menu_parks_p"
                 android:icon="@drawable/ic_label_black_24dp"
-                android:title="National Parks (2010- ) (P)" />
+                android:title="America the Beautiful (P)" />
             <item
                 android:id="@+id/nav_menu_parks_d"
                 android:icon="@drawable/ic_label_black_24dp"
-                android:title="National Parks (2010- ) (D)" />
+                android:title="America the Beautiful (D)" />
             <item
                 android:id="@+id/nav_menu_parks_p_d"
                 android:icon="@drawable/ic_label_black_24dp"
-                android:title="National Parks (2010- )" />
+                android:title="America the Beautiful" />
+        </menu>
+    </item>
+    <item android:title="Half Dollars">
+        <menu>
+            <item
+                android:icon="@drawable/ic_label_black_24dp"
+                android:title="Franklin (1948-1963)" />
+            <item
+                android:icon="@drawable/ic_label_black_24dp"
+                android:title="Kennedy (1964- )" />
         </menu>
     </item>
     <item android:title="Dollars">
         <menu>
+            <item
+                android:icon="@drawable/ic_label_black_24dp"
+                android:title="Eisenhower (1971-1978)" />
+            <item
+                android:icon="@drawable/ic_label_black_24dp"
+                android:title="Anthony (1979-1981, 1999)" />
             <item
                 android:id="@+id/nav_menu_sacagawea"
                 android:icon="@drawable/ic_label_black_24dp"
@@ -45,15 +77,15 @@
             <item
                 android:id="@+id/nav_menu_sacagawea_p"
                 android:icon="@drawable/ic_label_black_24dp"
-                android:title="Sacagawea (2000- ) (P)" />
+                android:title="Native American Dollars (P)" />
             <item
                 android:id="@+id/nav_menu_sacagawea_d"
                 android:icon="@drawable/ic_label_black_24dp"
-                android:title="Sacagawea (2000- ) (D)" />
+                android:title="Native American Dollars (D)" />
             <item
                 android:id="@+id/nav_menu_sacagawea_p_d"
                 android:icon="@drawable/ic_label_black_24dp"
-                android:title="Sacagawea (2000- )" />
+                android:title="Native American Dollars" />
             <item
                 android:id="@+id/nav_menu_presidents"
                 android:icon="@drawable/ic_label_black_24dp"
@@ -61,15 +93,17 @@
             <item
                 android:id="@+id/nav_menu_presidents_p"
                 android:icon="@drawable/ic_label_black_24dp"
-                android:title="Presidents (2007-2016) (P)" />
+                android:title="Presidential Dollars (P)" />
             <item
                 android:id="@+id/nav_menu_presidents_d"
                 android:icon="@drawable/ic_label_black_24dp"
-                android:title="Presidents (2007-2016) (D)" />
+                android:title="Presidential Dollars (D)" />
             <item
                 android:id="@+id/nav_menu_presidents_p_d"
                 android:icon="@drawable/ic_label_black_24dp"
-                android:title="Presidents (2007-2016)" />
+                android:title="Presidential Dollars" />
         </menu>
     </item>
+
+
 </menu>

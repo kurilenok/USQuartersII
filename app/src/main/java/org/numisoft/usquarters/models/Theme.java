@@ -1,6 +1,7 @@
 package org.numisoft.usquarters.models;
 
-import org.numisoft.usquarters.utils.Constants;
+import org.numisoft.usquarters.R;
+import org.numisoft.usquarters.utils.App;
 
 /**
  * Created by kukolka on 10/18/2016.
@@ -8,26 +9,26 @@ import org.numisoft.usquarters.utils.Constants;
 
 public enum Theme {
 
-    STATES ("Statehood Quarters"),
-    STATES_P ("Statehood Quarters (P)"),
-    STATES_D ("Statehood Quarters (D)"),
-    PARKS ("America the Beautiful"),
-    PARKS_P ("America the Beautiful (P)"),
-    PARKS_D ("America the Beautiful (D)"),
-    PRESIDENTS ("Presidential Dollars"),
-    PRESIDENTS_P ("Presidential Dollars (P)"),
-    PRESIDENTS_D ("Presidential Dollars (D)"),
-    SACAGAWEA ("Native American Dollars"),
-    SACAGAWEA_P ("Native American Dollars (P)"),
-    SACAGAWEA_D ("Native American Dollars (D)");
+    STATES (R.string.theme_states),
+    STATES_P (R.string.theme_states_p),
+    STATES_D (R.string.theme_states_d),
+    PARKS (R.string.theme_parks),
+    PARKS_P (R.string.theme_parks_p),
+    PARKS_D (R.string.theme_parks_d),
+    PRESIDENTS (R.string.theme_presidents),
+    PRESIDENTS_P (R.string.theme_presidents_p),
+    PRESIDENTS_D (R.string.theme_presidents_d),
+    SACAGAWEA (R.string.theme_sacagawea),
+    SACAGAWEA_P (R.string.theme_sacagawea_p),
+    SACAGAWEA_D (R.string.theme_sacagawea_d);
 
-    final String value;
+    private int value;
 
-    Theme(String value) {
+    Theme(int value) {
         this.value = value;
     }
 
     public String getValue() {
-        return value;
+        return App.getContext().getString(value);
     }
 }

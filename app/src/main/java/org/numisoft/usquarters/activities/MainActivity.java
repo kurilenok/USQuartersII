@@ -48,6 +48,7 @@ public class MainActivity extends AppCompatActivity
         setSupportActionBar(toolbar);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         getSupportActionBar().setTitle("America The Beautiful");
+//        getSupportActionBar().setSubtitle("1999-2010");
 
 // Tabs
         tabLayout = (TabLayout) findViewById(R.id.tabs);
@@ -317,7 +318,7 @@ public class MainActivity extends AppCompatActivity
         int viewMode = preferences.getInt(VIEW_MODE, 1);
         switch (viewMode) {
             case 0:
-                hideMenuItemsMode0(navigationViewMenu);
+//                hideMenuItemsMode0(navigationViewMenu);
                 menu.getItem(3).setChecked(true);
                 break;
             case 1:

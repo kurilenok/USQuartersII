@@ -1,37 +1,26 @@
 <resources>
     <string name="app_name">US Quarters</string>
-    <string name="navigation_1">Option 1</string>
-    <string name="navigation_2">Second Item</string>
-    <string name="navigation_3">Another Menu</string>
     <string name="open">open</string>
     <string name="close">close</string>
-    <string name="navigation_4">Last Resourse</string>
     <string name="menu_item_1">Other settings</string>
     <string name="menu_item_2">HAVE</string>
     <string name="menu_item_3">NEED</string>
-    <string name="menu_search">SEARCH</string>
-    <string name="actionBarTitle">Finland</string>
     <string name="menu_item_4">SWAP</string>
     <string name="menu_item_5">UNC-</string>
-
-    <string-array name="provinces">
-        <item>Gettysburg</item>
-        <item>Everglades</item>
-        <item>Shenandoah</item>
-        <item>Homestead</item>
-        <item>Shawnee</item>
-        <item>Harpers Ferry</item>
-        <item>T.Roosevelt</item>
-    </string-array>
-
-    <string-array name="parks">
-        <item>Hot Springs</item>
-        <item>Gettysburg</item>
-        <item>Glacier</item>
-        <item>Vicksburg</item>
-        <item>Saratoga</item>
-    </string-array>
-
+    <string name="menu_search">SEARCH</string>
     <string name="json">test.json</string>
+
+    <string name="theme_states">Statehood Quarters</string>
+    <string name="theme_states_p">Statehood Quarters (P)</string>
+    <string name="theme_states_d">Statehood Quarters (D)</string>
+    <string name="theme_parks">America the Beautiful</string>
+    <string name="theme_parks_p">America the Beautiful (P)</string>
+    <string name="theme_parks_d">America the Beautiful (D)</string>
+    <string name="theme_presidents">Presidential Dollars</string>
+    <string name="theme_presidents_p">Presidential Dollars (P)</string>
+    <string name="theme_presidents_d">Presidential Dollars (D)</string>
+    <string name="theme_sacagawea">Sacagawea Dollars</string>
+    <string name="theme_sacagawea_p">Sacagawea Dollars (P)</string>
+    <string name="theme_sacagawea_d">Sacagawea Dollars (D)</string>
 
 </resources>
