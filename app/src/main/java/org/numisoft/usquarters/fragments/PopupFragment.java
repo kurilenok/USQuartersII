@@ -62,7 +62,7 @@ public class PopupFragment extends DialogFragment implements View.OnClickListene
 //        CardView cv = (CardView) view.findViewById(R.id.cvItem);
 //        cv.setClipToOutline(true);
 
-        RelativeLayout rlMain = (RelativeLayout) view.findViewById(R.id.rlItem);
+//        RelativeLayout rlMain = (RelativeLayout) view.findViewById(R.id.rlItem);
         TextView tvName = (TextView) view.findViewById(R.id.tvName);
         TextView tvDescription = (TextView) view.findViewById(R.id.tvDescription);
         TextView tvMintage = (TextView) view.findViewById(R.id.tvMintage);
@@ -91,9 +91,9 @@ public class PopupFragment extends DialogFragment implements View.OnClickListene
         tvDescription.setText(coin.getDescription());
 
         if (coin.getRemark() != null && coin.getRemark().equalsIgnoreCase("2017")) {
-            tvMintage.setText("COMING SOON: " + coin.getMintage() + " ");
+            tvMintage.setText(getString(R.string.coming_soon) + coin.getMintage() + " ");
         } else {
-            tvMintage.setText("MINTAGE: " + coin.getMintage() + " ");
+            tvMintage.setText(getString(R.string.mintage) + coin.getMintage() + " ");
         }
 
         preferences = getActivity().getSharedPreferences(SHARED_PREF, MODE_PRIVATE);

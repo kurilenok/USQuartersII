@@ -1,75 +1,75 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
-    <item android:title="Quarters">
+    <item android:title="@string/nav_quarters">
         <menu>
             <item
                 android:id="@+id/nav_menu_states"
-                android:icon="@drawable/ic_label_black_24dp"
-                android:title="Statehood (1999-2009)" />
+                android:icon="@drawable/item_quarter"
+                android:title="@string/nav_states" />
             <item
                 android:id="@+id/nav_menu_states_p"
-                android:icon="@drawable/ic_label_black_24dp"
-                android:title="Statehood (1999-2009) (P)" />
+                android:icon="@drawable/item_quarter"
+                android:title="@string/nav_states_p" />
             <item
                 android:id="@+id/nav_menu_states_d"
-                android:icon="@drawable/ic_label_black_24dp"
-                android:title="Statehood (1999-2009) (D)" />
+                android:icon="@drawable/item_quarter"
+                android:title="@string/nav_states_d" />
             <item
                 android:id="@+id/nav_menu_states_p_d"
-                android:icon="@drawable/ic_label_black_24dp"
-                android:title="Statehood (1999-2009)" />
+                android:icon="@drawable/item_quarter"
+                android:title="@string/nav_states" />
             <item
                 android:id="@+id/nav_menu_parks"
-                android:icon="@drawable/ic_label_black_24dp"
-                android:title="National Parks (2010- )" />
+                android:icon="@drawable/item_quarter"
+                android:title="@string/nav_parks" />
             <item
                 android:id="@+id/nav_menu_parks_p"
-                android:icon="@drawable/ic_label_black_24dp"
-                android:title="National Parks (2010- ) (P)" />
+                android:icon="@drawable/item_quarter"
+                android:title="@string/nav_parks_p" />
             <item
                 android:id="@+id/nav_menu_parks_d"
-                android:icon="@drawable/ic_label_black_24dp"
-                android:title="National Parks (2010- ) (D)" />
+                android:icon="@drawable/item_quarter"
+                android:title="@string/nav_parks_d" />
             <item
                 android:id="@+id/nav_menu_parks_p_d"
-                android:icon="@drawable/ic_label_black_24dp"
-                android:title="National Parks (2010- )" />
+                android:icon="@drawable/item_quarter"
+                android:title="@string/nav_parks" />
         </menu>
     </item>
-    <item android:title="Dollars">
+    <item android:title="@string/dollars">
         <menu>
             <item
                 android:id="@+id/nav_menu_sacagawea"
-                android:icon="@drawable/ic_label_black_24dp"
-                android:title="Sacagawea (2000- )" />
+                android:icon="@drawable/item_saca"
+                android:title="@string/nav_sacagawea" />
             <item
                 android:id="@+id/nav_menu_sacagawea_p"
-                android:icon="@drawable/ic_label_black_24dp"
-                android:title="Sacagawea (2000- ) (P)" />
+                android:icon="@drawable/item_saca"
+                android:title="@string/nav_sacagawea_p" />
             <item
                 android:id="@+id/nav_menu_sacagawea_d"
-                android:icon="@drawable/ic_label_black_24dp"
-                android:title="Sacagawea (2000- ) (D)" />
+                android:icon="@drawable/item_saca"
+                android:title="@string/nav_sacagawea_d" />
             <item
                 android:id="@+id/nav_menu_sacagawea_p_d"
-                android:icon="@drawable/ic_label_black_24dp"
-                android:title="Sacagawea (2000- )" />
+                android:icon="@drawable/item_saca"
+                android:title="@string/nav_sacagawea" />
             <item
                 android:id="@+id/nav_menu_presidents"
-                android:icon="@drawable/ic_label_black_24dp"
-                android:title="Presidents (2007-2016)" />
+                android:icon="@drawable/item_dolla"
+                android:title="@string/nav_presidents" />
             <item
                 android:id="@+id/nav_menu_presidents_p"
-                android:icon="@drawable/ic_label_black_24dp"
-                android:title="Presidents (2007-2016) (P)" />
+                android:icon="@drawable/item_dolla"
+                android:title="@string/nav_presidents_p" />
             <item
                 android:id="@+id/nav_menu_presidents_d"
-                android:icon="@drawable/ic_label_black_24dp"
-                android:title="Presidents (2007-2016) (D)" />
+                android:icon="@drawable/item_dolla"
+                android:title="@string/nav_presidents_d" />
             <item
                 android:id="@+id/nav_menu_presidents_p_d"
-                android:icon="@drawable/ic_label_black_24dp"
-                android:title="Presidents (2007-2016)" />
+                android:icon="@drawable/item_dolla"
+                android:title="@string/nav_presidents" />
         </menu>
     </item>
 </menu>

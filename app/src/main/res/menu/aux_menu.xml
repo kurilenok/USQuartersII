@@ -8,13 +8,13 @@
     <group android:id="@+id/group2" android:checkableBehavior="single">
         <item
             android:id="@+id/aux_menu_one_mint"
-            android:title="Mints separate"/>
+            android:title="@string/mints_separate"/>
         <item
             android:id="@+id/aux_menu_two_mints"
-            android:title="Mints together"/>
+            android:title="@string/mints_together"/>
         <item
             android:id="@+id/aux_menu_no_mints"
-            android:title="No mints at all"/>
+            android:title="@string/no_mints"/>
     </group>
 
 

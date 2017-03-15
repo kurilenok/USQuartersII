@@ -2,11 +2,6 @@
 <resources>
     <string name="app_name">US Quarters</string>
     <string name="json">ru.json</string>
-    <string name="menu_item_5">не UNC</string>
-    <string name="menu_item_2">ЕСТЬ</string>
-    <string name="menu_item_3">НАДО</string>
-    <string name="menu_item_4">ОБМЕН</string>
-    <string name="menu_search">ПОИСК</string>
     <string name="menu_item_1">Другие настройки</string>
     <string name="close">close</string>
     <string name="open">open</string>
@@ -22,4 +17,33 @@
     <string name="theme_sacagawea">Сакагавея</string>
     <string name="theme_sacagawea_d">Сакагавея (D)</string>
     <string name="theme_sacagawea_p">Сакагавея (P)</string>
+
+    <string name="nav_sacagawea">Сакагавея (2000- )</string>
+    <string name="nav_sacagawea_d">Сакагавея (2000- ) (P)</string>
+    <string name="nav_sacagawea_p">Сакагавея (2000- ) (D)</string>
+    <string name="nav_parks">Нац. парки (2010- )</string>
+    <string name="nav_parks_d">Нац. парки (2010- ) (D)</string>
+    <string name="nav_parks_p">Нац. парки (2010- ) (P)</string>
+    <string name="nav_presidents">Президенты (2007-2016)</string>
+    <string name="nav_presidents_d">Президенты (2007-2016) (D)</string>
+    <string name="nav_presidents_p">Президенты (2007-2016) (P)</string>
+    <string name="nav_quarters">Квотеры</string>
+    <string name="nav_states">Штаты (1999-2009)</string>
+    <string name="nav_states_d">Штаты (1999-2009) (D)</string>
+    <string name="nav_states_p">Штаты (1999-2009) (P)</string>
+    <string name="dollars">Доллары</string>
+    <string name="grade_unc">АНЦ</string>
+    <string name="grade_fine">Отл</string>
+    <string name="grade_good">Хор</string>
+    <string name="grade_poor">Удовл</string>
+    <string name="add_and_close">Добавить АНЦ и закрыть</string>
+    <string name="tab_need">НАДО</string>
+    <string name="tab_all">ВСЕ</string>
+    <string name="tab_swap">ОБМЕН</string>
+    <string name="tab_unc">не АНЦ</string>
+    <string name="coming_soon">"Выходит "</string>
+    <string name="mintage">"Тираж: "</string>
+    <string name="mints_separate">МД раздельно</string>
+    <string name="mints_together">МД вместе</string>
+    <string name="no_mints">МД не надо</string>
 </resources>

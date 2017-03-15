@@ -3,11 +3,6 @@
     <string name="open">open</string>
     <string name="close">close</string>
     <string name="menu_item_1">Other settings</string>
-    <string name="menu_item_2">HAVE</string>
-    <string name="menu_item_3">NEED</string>
-    <string name="menu_item_4">SWAP</string>
-    <string name="menu_item_5">UNC-</string>
-    <string name="menu_search">SEARCH</string>
     <string name="json">test.json</string>
 
     <string name="theme_states">Statehood Quarters</string>
@@ -22,5 +17,34 @@
     <string name="theme_sacagawea">Sacagawea Dollars</string>
     <string name="theme_sacagawea_p">Sacagawea Dollars (P)</string>
     <string name="theme_sacagawea_d">Sacagawea Dollars (D)</string>
+
+    <string name="nav_sacagawea">Sacagawea (2000- )</string>
+    <string name="nav_sacagawea_p">Sacagawea (2000- ) (P)</string>
+    <string name="nav_sacagawea_d">Sacagawea (2000- ) (D)</string>
+    <string name="nav_quarters">Quarters</string>
+    <string name="nav_states">Statehood (1999-2009)</string>
+    <string name="nav_states_p">Statehood (1999-2009) (P)</string>
+    <string name="nav_states_d">Statehood (1999-2009) (D)</string>
+    <string name="nav_parks">National Parks (2010- )</string>
+    <string name="nav_parks_p">National Parks (2010- ) (P)</string>
+    <string name="nav_parks_d">National Parks (2010- ) (D)</string>
+    <string name="nav_presidents">Presidents (2007-2016)</string>
+    <string name="nav_presidents_p">Presidents (2007-2016) (P)</string>
+    <string name="nav_presidents_d">Presidents (2007-2016) (D)</string>
+    <string name="dollars">Dollars</string>
+    <string name="grade_unc">UNC</string>
+    <string name="grade_fine">Fine</string>
+    <string name="grade_good">Good</string>
+    <string name="grade_poor">Poor</string>
+    <string name="add_and_close"><![CDATA[Add & CLOSE]]></string>
+    <string name="mintage">"MINTAGE: "</string>
+    <string name="coming_soon">\"IS ISSUED ON \"</string>
+    <string name="tab_all">ALL</string>
+    <string name="tab_need">NEED</string>
+    <string name="tab_swap">SWAP</string>
+    <string name="tab_unc">UNC-</string>
+    <string name="mints_separate">Mints separate</string>
+    <string name="mints_together">Mints together</string>
+    <string name="no_mints">No mints at all</string>
 
 </resources>

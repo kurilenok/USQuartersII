@@ -21,5 +21,10 @@
         <item name="android:textColorPrimary">@android:color/white</item>
     </style>
 
+    <style name="myBorderlessButton" parent="Widget.AppCompat.Button.Borderless.Colored">
+        <item name="android:textColor">@color/accent</item>
+        <item name="android:textSize">20sp</item>
+    </style>
+
 
 </resources>

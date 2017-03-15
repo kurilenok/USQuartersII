@@ -53,11 +53,11 @@ public class MainActivity extends AppCompatActivity
 // Tabs
         tabLayout = (TabLayout) findViewById(R.id.tabs);
         tabLayout.setTabMode(TabLayout.MODE_FIXED);
-        tabLayout.addTab(tabLayout.newTab().setText("ALL"));
+        tabLayout.addTab(tabLayout.newTab().setText(R.string.tab_all));
 //        tabLayout.addTab(tabLayout.newTab().setText("HAVE"));
-        tabLayout.addTab(tabLayout.newTab().setText("NEED"));
-        tabLayout.addTab(tabLayout.newTab().setText("SWAP"));
-        tabLayout.addTab(tabLayout.newTab().setText("UNC-"));
+        tabLayout.addTab(tabLayout.newTab().setText(R.string.tab_need));
+        tabLayout.addTab(tabLayout.newTab().setText(R.string.tab_swap));
+        tabLayout.addTab(tabLayout.newTab().setText(R.string.tab_unc));
 
 // Pager
         viewPager = (ViewPager) findViewById(R.id.pager);
@@ -89,7 +89,7 @@ public class MainActivity extends AppCompatActivity
 // Navigation
         NavigationView navigationView = (NavigationView) findViewById(R.id.nav_view);
 //        navigationView.addHeaderView(View.inflate(this, R.layout.nav_header, null));
-//        navigationView.setItemIconTintList(null);
+        navigationView.setItemIconTintList(null);
         navigationView.setNavigationItemSelectedListener(this);
 
 // Navigation menu transformation
