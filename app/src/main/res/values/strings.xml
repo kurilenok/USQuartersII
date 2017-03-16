@@ -37,8 +37,8 @@
     <string name="grade_good">Good</string>
     <string name="grade_poor">Poor</string>
     <string name="add_and_close"><![CDATA[Add & CLOSE]]></string>
-    <string name="mintage">"MINTAGE: "</string>
-    <string name="coming_soon">\"IS ISSUED ON \"</string>
+    <string name="mintage">"Mintage: "</string>
+    <string name="coming_soon">"Will be issued on "</string>
     <string name="tab_all">ALL</string>
     <string name="tab_need">NEED</string>
     <string name="tab_swap">SWAP</string>

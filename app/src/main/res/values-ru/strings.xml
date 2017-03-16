@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">US Quarters</string>
+    <string name="app_name">Монеты США</string>
     <string name="json">ru.json</string>
     <string name="menu_item_1">Другие настройки</string>
     <string name="close">close</string>
@@ -36,7 +36,7 @@
     <string name="grade_fine">Отл</string>
     <string name="grade_good">Хор</string>
     <string name="grade_poor">Удовл</string>
-    <string name="add_and_close">Добавить АНЦ и закрыть</string>
+    <string name="add_and_close">Добавить и закрыть</string>
     <string name="tab_need">НАДО</string>
     <string name="tab_all">ВСЕ</string>
     <string name="tab_swap">ОБМЕН</string>
