@@ -22,4 +22,5 @@ task clean(type: Delete) {
     delete rootProject.buildDir
 }
 
+// task-2
 // task-1
