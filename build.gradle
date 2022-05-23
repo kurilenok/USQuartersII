@@ -24,3 +24,4 @@ task clean(type: Delete) {
 
 // task-2
 // task-1
+// task-3
